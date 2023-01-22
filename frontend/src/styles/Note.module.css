@@ -2,6 +2,12 @@
     background-color: cornsilk;
 }
 
-.cardtext {
-    white-space: pre-line;
+.cardBody {
+    overflow: hidden;
+    mask-image: linear-gradient(180deg, #000 70%, transparent);
 }
+
+.cardText {
+    white-space:pre-line;
+}
+
